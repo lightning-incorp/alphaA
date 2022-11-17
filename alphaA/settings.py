@@ -28,7 +28,7 @@ CSRF_COOKIE_SECURE = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['moonlightsenpai.ml']
+ALLOWED_HOSTS = ['moonlightsenpai.ml','*.moonlightsenpai.ml']
 
 
 # Application definition
