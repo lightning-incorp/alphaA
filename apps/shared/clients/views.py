@@ -25,7 +25,7 @@ class SignupView(APIView):
         else:
             tenant = Client(schema_name=schema)
             tenant.save()
-            domain = Domain(domain=schema + '.example.com', tenant=tenant)
+            domain = Domain(domain=schema + '.moonlightsenpai.ml', tenant=tenant)
             domain.save()
             account = Account(mobile=mobile, name=name, workspace=tenant, email=email)
             account.save()
