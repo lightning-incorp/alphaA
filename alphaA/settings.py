@@ -97,10 +97,10 @@ WSGI_APPLICATION = 'alphaA.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django_tenants.postgresql_backend',
-        'NAME': 'alphaA',
-        'USER': 'abinesh',
+        'NAME': 'alpha_db',
+        'USER': 'john',
         'PASSWORD': '123456',
-        'HOST': 'localhost',
+        'HOST': '13.232.69.10',
         'PORT': '5432'
     }
 }
