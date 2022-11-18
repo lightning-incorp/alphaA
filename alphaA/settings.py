@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,7 +28,7 @@ CSRF_COOKIE_SECURE = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['moonlightsenpai.ml','*.moonlightsenpai.ml','65.2.86.33']
+ALLOWED_HOSTS = ['moonlightsenpai.ml', '.moonlightsenpai.ml', 'example.com', '.example.com']
 
 
 # Application definition
